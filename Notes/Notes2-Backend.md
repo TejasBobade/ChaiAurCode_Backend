@@ -85,3 +85,14 @@ then whenever we need to use it ex.
 - Create a .gitignore file and add 
 node_modules
 .env
+
+- >  Go to digital ocean -> https://www.digitalocean.com/
+- create -> Apps -> create Resource from source code (Github) -> Repositery (ChaiAurCode_Backend) -> Branch (main) -> Source Directory -> / -> Next
+- Resource -> Edite plain -> Basic -> Price $5
+- Environment variable -> Global,ChaiAurCode_Backend -> keys (PORT) -> Values (3000) -> next
+- info -> Next
+- Review -> Create Resources
+
+- Build log
+
+- Action -> destroy app (to remove the app)
